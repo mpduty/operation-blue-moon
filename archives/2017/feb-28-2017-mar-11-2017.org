@@ -62,6 +62,7 @@
   :SPRINTSTART: <2017-02-28 Tue>
   :wpd-imack: 2
   :wpd-mpduty: 2
+  :wpd-mbuf: 1
   :END:
 ** READING
 *** IN_PROGRESS Linux Device Drivers, 3rd edition [0/19]
@@ -91,6 +92,16 @@
     - [ ] Chapter 16: Block Drivers 	
     - [ ] Chapter 17: Network Drivers 	
     - [ ] Chapter 18: TTY Drivers    
+
+** WRITING
+*** TODO PyCon Pune 2017 blog post
+    :PROPERTIES:
+    :ESTIMATED: 2.0
+    :ACTUAL:
+    :OWNER: shaks
+    :ID: WRITING.1488519486
+    :TASKID: WRITING.1488519486
+    :END:
 ** WEB 
 *** TODO Opencab issue #5
     :PROPERTIES:
