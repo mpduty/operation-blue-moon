@@ -21,9 +21,9 @@
 #+END:
 ** BURNDOWN CHART
 #+BEGIN: block-update-graph
-:                                                                               
-:                                    Burndown                                   
-:                                                                               
+:
+:                                    Burndown
+:
 :  18 ++----####################################-----+----------+----------++   
 :     |                                                                     |   
 :  16 ++    ......                                           ACTUAL #######++   
@@ -44,7 +44,7 @@
 :     |                                                                    .|   
 :   0 ++----------+----------+-----------+-----------+----------+----------+.   
 :     0           2          4           6           8          10          12  
-:                                                                               
+:
 :
 #+END:
 ** BURNDOWN LIST
@@ -109,9 +109,9 @@
     CLOCK: [2017-03-01 Wed 08:40]--[2017-03-01 Wed 10:00] =>  1:20
     CLOCK: [2017-03-01 Wed 08:30]--[2017-03-01 Wed 09:15] =>  0:45
     :END:
-    - [X] Preface 	
-    - [X] Chapter 1: An Introduction to Device Drivers 	
-    - [X] Chapter 2: Building and Running Modules 	
+    - [X] Preface
+    - [X] Chapter 1: An Introduction to Device Drivers
+    - [X] Chapter 2: Building and Running Modules
     - [ ] Chapter 3: Char Drivers 	
     - [ ] Chapter 4: Debugging Techniques 	
     - [ ] Chapter 5: Concurrency and Race Conditions 	
