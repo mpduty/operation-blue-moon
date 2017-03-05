@@ -9,45 +9,73 @@
 | TODO                             | NEXT | IN_PROGRESS                                        | WAITING | DONE | CANCELED |
 |----------------------------------+------+----------------------------------------------------+---------+------+----------|
 | WEB.1488466016. Opencab issue #5 |      | READING.1488465959. Linux Device Drivers, 3rd edit |         |      |          |
-| . KERNEL                         |      |                                                    |         |      |          |
+| . KERNEL                         |      | WRITING.1488519486. PyCon Pune 2017 blog post      |         |      |          |
 #+END:
 ** DEVELOPER SUMMARY
 #+BEGIN: block-update-summary
 | NAME   | ESTIMATED | ACTUAL | DONE | REMAINING | PENCILS DOWN | PROGRESS   |
 |--------+-----------+--------+------+-----------+--------------+------------|
-| Mpduty |       8.0 |      0 |    0 |       8.0 |   2017-03-08 | ---------- |
-| Imack  |       4.0 |      0 |    0 |       4.0 |   2017-03-06 | ---------- |
+| Mbuf   |         0 |      0 |    0 |         0 |   2017-03-06 | ---------- |
+| Mpduty |       8.0 |      0 |    0 |       8.0 |   2017-03-10 | ---------- |
+| Imack  |       4.0 |      0 |    0 |       4.0 |   2017-03-08 | ---------- |
 #+END:
 ** BURNDOWN CHART
 #+BEGIN: block-update-graph
-
+:                                                                               
+:                                    Burndown                                   
+:                                                                               
+:  18 ++----####################################-----+----------+----------++   
+:     |                                                                     |   
+:  16 ++    ......                                           ACTUAL #######++   
+:     |           ......                                      IDEAL ....... |   
+:  14 ++                ....                                               ++   
+:     |                     .                                               |   
+:  12 ++                     .....                                         ++   
+:     |                           .                                         |   
+:  10 ++                           ......                                  ++   
+:     |                                  ......                             |   
+:   8 ++                                       .....                       ++   
+:     |                                             .                       |   
+:   6 ++                                             .....                 ++   
+:     |                                                   .                 |   
+:   4 ++                                                   .....           ++   
+:     |                                                         ......      |   
+:   2 ++                                                              .....++   
+:     |                                                                    .|   
+:   0 ++----------+----------+-----------+-----------+----------+----------+.   
+:     0           2          4           6           8          10          12  
+:                                                                               
+:
 #+END:
 ** BURNDOWN LIST
 #+PLOT: title:"Burndown" ind:1 deps:(3 4) set:"term dumb" set:"xtics scale 0.5" set:"ytics scale 0.5" file:"burndown.plt" set:"xrange [0:12]"
 #+BEGIN: block-update-burndown
 | DAY |       DATE | ACTUAL | IDEAL | TASKS COMPLETED |
 |-----+------------+--------+-------+-----------------|
-|   1 | 2017-02-28 |   16.0 |    15 |                 |
-|   2 | 2017-03-01 |   16.0 |    13 |                 |
-|   3 | 2017-03-02 |   16.0 |    12 |                 |
-|   4 | 2017-03-03 |        |    11 |                 |
-|   5 | 2017-03-04 |        |     9 |                 |
-|   6 | 2017-03-05 |        |     8 |                 |
-|   7 | 2017-03-06 |        |     7 |                 |
-|   8 | 2017-03-07 |        |     5 |                 |
+|   1 | 2017-02-28 |   18.0 |    16 |                 |
+|   2 | 2017-03-01 |   18.0 |    15 |                 |
+|   3 | 2017-03-02 |   18.0 |    14 |                 |
+|   4 | 2017-03-03 |   18.0 |    12 |                 |
+|   5 | 2017-03-04 |   18.0 |    10 |                 |
+|   6 | 2017-03-05 |   18.0 |     9 |                 |
+|   7 | 2017-03-06 |   18.0 |     8 |                 |
+|   8 | 2017-03-07 |        |     6 |                 |
 |   9 | 2017-03-08 |        |     4 |                 |
 |  10 | 2017-03-09 |        |     3 |                 |
-|  11 | 2017-03-10 |        |     1 |                 |
+|  11 | 2017-03-10 |        |     2 |                 |
 |  12 | 2017-03-11 |        |     0 |                 |
 #+END:
 ** TASK LIST
 #+BEGIN: columnview :hlines 2 :maxlevel 5 :id "TASKS"
 | ITEM                                                  | TASKID             | OWNER  | PRIORITY | TODO        | ESTIMATED | ACTUAL |
 |-------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
-| * TASKS                                               |                    |        | B        |             |      16.0 |        |
+| * TASKS                                               |                    |        | B        |             |      18.0 |        |
 |-------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
 | ** READING                                            |                    |        | B        |             |       8.0 |        |
-| *** Linux Device Drivers, 3rd edition [0/19]          | READING.1488465959 | mpduty | B        | IN_PROGRESS |       8.0 |        |
+| *** Linux Device Drivers, 3rd edition [3/19]          | READING.1488465959 | mpduty | B        | IN_PROGRESS |       8.0 |        |
+|-------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
+| ** WRITING                                            |                    |        | B        |             |       2.0 |        |
+| *** PyCon Pune 2017 blog post                         | WRITING.1488519486 | shaks  | B        | IN_PROGRESS |       2.0 |        |
 |-------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
 | ** WEB                                                |                    |        | B        |             |       4.0 |        |
 | *** Opencab issue #5                                  | WEB.1488466016     | imack  | B        | TODO        |       4.0 |        |
@@ -65,7 +93,7 @@
   :wpd-mbuf: 1
   :END:
 ** READING
-*** IN_PROGRESS Linux Device Drivers, 3rd edition [0/19]
+*** IN_PROGRESS Linux Device Drivers, 3rd edition [3/19]
     :PROPERTIES:
     :ESTIMATED: 8.0
     :ACTUAL:
@@ -73,9 +101,17 @@
     :ID: READING.1488465959
     :TASKID: READING.1488465959
     :END:
-    - [ ] Preface 	
-    - [ ] Chapter 1: An Introduction to Device Drivers 	
-    - [ ] Chapter 2: Building and Running Modules 	
+    :LOGBOOK:
+    CLOCK: [2017-03-04 Sat 10:00]--[2017-03-04 Sat 12:30] =>  2:30
+    CLOCK: [2017-03-03 Fri 22:15]--[2017-03-03 Fri 23:00] =>  0:45
+    CLOCK: [2017-03-02 Thu 20:35]--[2017-03-02 Thu 21:45] =>  1:10
+    CLOCK: [2017-03-02 Thu 08:20]--[2017-03-02 Thu 09:00] =>  0:40
+    CLOCK: [2017-03-01 Wed 08:40]--[2017-03-01 Wed 10:00] =>  1:20
+    CLOCK: [2017-03-01 Wed 08:30]--[2017-03-01 Wed 09:15] =>  0:45
+    :END:
+    - [X] Preface 	
+    - [X] Chapter 1: An Introduction to Device Drivers 	
+    - [X] Chapter 2: Building and Running Modules 	
     - [ ] Chapter 3: Char Drivers 	
     - [ ] Chapter 4: Debugging Techniques 	
     - [ ] Chapter 5: Concurrency and Race Conditions 	
@@ -94,13 +130,16 @@
     - [ ] Chapter 18: TTY Drivers    
 
 ** WRITING
-*** TODO PyCon Pune 2017 blog post
+*** IN_PROGRESS PyCon Pune 2017 blog post
     :PROPERTIES:
     :ESTIMATED: 2.0
     :ACTUAL:
     :OWNER: shaks
     :ID: WRITING.1488519486
     :TASKID: WRITING.1488519486
+    :END:
+    :LOGBOOK:
+    CLOCK: [2017-03-05 Sun 17:30]--[2017-03-05 Sun 18:10] =>  0:40
     :END:
 ** WEB 
 *** TODO Opencab issue #5
