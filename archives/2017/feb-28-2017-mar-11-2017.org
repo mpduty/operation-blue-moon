@@ -15,16 +15,16 @@
 #+BEGIN: block-update-summary
 | NAME   | ESTIMATED | ACTUAL | DONE | REMAINING | PENCILS DOWN | PROGRESS   |
 |--------+-----------+--------+------+-----------+--------------+------------|
-| Mbuf   |         0 |      0 |    0 |         0 |   2017-03-06 | ---------- |
-| Mpduty |       8.0 |      0 |    0 |       8.0 |   2017-03-10 | ---------- |
-| Imack  |       4.0 |      0 |    0 |       4.0 |   2017-03-08 | ---------- |
+| Mbuf   |         0 |      0 |    0 |         0 |   2017-03-07 | ---------- |
+| Mpduty |       8.0 |      0 |    0 |       8.0 |   2017-03-13 | ---------- |
+| Imack  |       4.0 |      0 |    0 |       4.0 |   2017-03-09 | ---------- |
 #+END:
 ** BURNDOWN CHART
 #+BEGIN: block-update-graph
 :
 :                                    Burndown
 :
-:  18 ++----####################################-----+----------+----------++   
+:  18 ++----##########################################----------+----------++
 :     |                                                                     |   
 :  16 ++    ......                                           ACTUAL #######++   
 :     |           ......                                      IDEAL ....... |   
@@ -59,7 +59,7 @@
 |   5 | 2017-03-04 |   18.0 |    10 |                 |
 |   6 | 2017-03-05 |   18.0 |     9 |                 |
 |   7 | 2017-03-06 |   18.0 |     8 |                 |
-|   8 | 2017-03-07 |        |     6 |                 |
+|   8 | 2017-03-07 |   18.0 |     6 |                 |
 |   9 | 2017-03-08 |        |     4 |                 |
 |  10 | 2017-03-09 |        |     3 |                 |
 |  11 | 2017-03-10 |        |     2 |                 |
@@ -72,7 +72,7 @@
 | * TASKS                                               |                    |        | B        |             |      18.0 |        |
 |-------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
 | ** READING                                            |                    |        | B        |             |       8.0 |        |
-| *** Linux Device Drivers, 3rd edition [3/19]          | READING.1488465959 | mpduty | B        | IN_PROGRESS |       8.0 |        |
+| *** Linux Device Drivers, 3rd edition [4/19]          | READING.1488465959 | mpduty | B        | IN_PROGRESS |       8.0 |        |
 |-------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
 | ** WRITING                                            |                    |        | B        |             |       2.0 |        |
 | *** PyCon Pune 2017 blog post                         | WRITING.1488519486 | shaks  | B        | IN_PROGRESS |       2.0 |        |
@@ -93,7 +93,7 @@
   :wpd-mbuf: 1
   :END:
 ** READING
-*** IN_PROGRESS Linux Device Drivers, 3rd edition [3/19]
+*** IN_PROGRESS Linux Device Drivers, 3rd edition [4/19]
     :PROPERTIES:
     :ESTIMATED: 8.0
     :ACTUAL:
@@ -102,6 +102,8 @@
     :TASKID: READING.1488465959
     :END:
     :LOGBOOK:
+    CLOCK: [2017-03-05 Sun 09:30]--[2017-03-05 Sun 10:00] =>  0:30
+    CLOCK: [2017-03-05 Sun 07:45]--[2017-03-05 Sun 09:00] =>  1:15
     CLOCK: [2017-03-04 Sat 10:00]--[2017-03-04 Sat 12:30] =>  2:30
     CLOCK: [2017-03-03 Fri 22:15]--[2017-03-03 Fri 23:00] =>  0:45
     CLOCK: [2017-03-02 Thu 20:35]--[2017-03-02 Thu 21:45] =>  1:10
@@ -112,7 +114,7 @@
     - [X] Preface
     - [X] Chapter 1: An Introduction to Device Drivers
     - [X] Chapter 2: Building and Running Modules
-    - [ ] Chapter 3: Char Drivers 	
+    - [X] Chapter 3: Char Drivers
     - [ ] Chapter 4: Debugging Techniques 	
     - [ ] Chapter 5: Concurrency and Race Conditions 	
     - [ ] Chapter 6: Advanced Char Driver Operations 	
@@ -151,11 +153,14 @@
     :TASKID: WEB.1488466016
     :END:
 ** TODO KERNEL
-*** Try shakthimaan Linux device driver code examples
+*** IN_PROGRESS Try shakthimaan Linux device driver code examples
     :PROPERTIES:
     :ESTIMATED: 4.0
     :ACTUAL:
     :OWNER: mpduty
     :ID: KERNEL.1488466221
     :TASKID: KERNEL.1488466221
+    :END:
+    :LOGBOOK:
+    CLOCK: [2017-03-06 Mon 21:00]--[2017-03-06 Mon 23:30] =>  2:30
     :END:
