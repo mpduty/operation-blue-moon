@@ -16,36 +16,12 @@
 #+BEGIN: block-update-summary
 | NAME   | ESTIMATED | ACTUAL | DONE | REMAINING | PENCILS DOWN | PROGRESS   |
 |--------+-----------+--------+------+-----------+--------------+------------|
-| Mbuf   |         0 |      0 |    0 |         0 |   2017-03-11 | ---------- |
+| Mbuf   |       2.0 |   2.25 |  2.0 |         0 |   2017-03-11 | ########## |
 | Mpduty |      12.0 |   15.1 | 12.0 |         0 |   2017-03-11 | ########## |
 #+END:
 ** BURNDOWN CHART
 #+BEGIN: block-update-graph
-:                                                                               
-:                                    Burndown                                   
-:                                                                               
-:  14 ++----#######################################################--------++   
-:     |     .....                                                  ##       |   
-:     |          .                                           ACTUAL ####### |   
-:  12 ++          .....                                       IDEAL ..#....++   
-:     |                .                                              #     |   
-:  10 ++                .....                                          #   ++   
-:     |                      .....                                     #    |   
-:     |                           .                                     #   |   
-:   8 ++                           ......                               #  ++   
-:     |                                  ......                         #   |   
-:   6 ++                                       .....                     # ++   
-:     |                                             .                    #  |   
-:     |                                              ......               # |   
-:   4 ++                                                   ....           #++   
-:     |                                                        .          # |   
-:   2 ++                                                        .....      #+   
-:     |                                                              .     #|   
-:     |                                                               ......*   
-:   0 ++----------+----------+-----------+-----------+----------+----------+*   
-:     0           2          4           6           8          10          12  
-:                                                                               
-:
+
 #+END:
 ** BURNDOWN LIST
 #+PLOT: title:"Burndown" ind:1 deps:(3 4) set:"term dumb" set:"xtics scale 0.5" set:"ytics scale 0.5" file:"burndown.plt" set:"xrange [0:12]"
@@ -75,7 +51,7 @@
 | *** Linux Device Drivers, 3rd edition, Part I [6/6]                 | READING.1488465959 | mpduty | B        | DONE |       8.0 |   12.6 |
 |---------------------------------------------------------------------+--------------------+--------+----------+------+-----------+--------|
 | ** WRITING                                                          |                    |        | B        |      |       2.0 |   2.25 |
-| *** PyCon Pune 2017 blog post                                       | WRITING.1488519486 | shaks  | B        | DONE |       2.0 |   2.25 |
+| *** PyCon Pune 2017 blog post                                       | WRITING.1488519486 | mbuf   | B        | DONE |       2.0 |   2.25 |
 |---------------------------------------------------------------------+--------------------+--------+----------+------+-----------+--------|
 | ** KERNEL                                                           |                    |        | B        |      |       4.0 |    2.5 |
 | *** Try shakthimaan Linux device driver code examples, Part I [6/6] | KERNEL.1488466221  | mpduty | B        | DONE |       4.0 |    2.5 |
@@ -123,7 +99,7 @@
     :PROPERTIES:
     :ESTIMATED: 2.0
     :ACTUAL: 2.25
-    :OWNER: shaks
+    :OWNER: mbuf
     :ID: WRITING.1488519486
     :TASKID: WRITING.1488519486
     :END:
