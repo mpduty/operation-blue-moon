@@ -132,6 +132,8 @@
     CLOCK: [2017-03-09 Thu 23:00]--[2017-03-10 Fri 00:30] =>  1:30
     CLOCK: [2017-03-05 Sun 17:30]--[2017-03-05 Sun 18:10] =>  0:40
     :END:
+
+    http://shakthimaan.com/posts/2017/03/10/pycon-pune-2017/news.html
 ** KERNEL
 *** DONE Try shakthimaan Linux device driver code examples, Part I [6/6]
     CLOSED: [2017-03-11 Sat 22:56]
