@@ -1,0 +1,10 @@
+* Wishlist
+** HACKING
+*** Add standard deviation, variance in Org scrum mode report
+    :PROPERTIES:
+    :ESTIMATED: 4.0
+    :ACTUAL:
+    :OWNER: shaks
+    :ID: HACKING.1489253135
+    :TASKID: HACKING.1489253135
+    :END:
