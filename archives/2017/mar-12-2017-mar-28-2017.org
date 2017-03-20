@@ -10,12 +10,13 @@
 |------+------+----------------------------------------------------+---------+----------------------------------------------------------------+----------|
 |      |      | READING.1489241516. Linux Device Drivers, 3rd edit |         | KERNEL.1489241583. Try shakthimaan Linux device d (2017-03-13) |          |
 |      |      | KERNEL.1489241685. Test suite for shakthimaan Lin  |         |                                                                |          |
+|      |      | KERNEL.1489242032. [PR-1] Review and merge for Li  |         |                                                                |          |
 #+END:
 ** DEVELOPER SUMMARY
 #+BEGIN: block-update-summary
 | NAME   | ESTIMATED | ACTUAL | DONE | REMAINING | PENCILS DOWN | PROGRESS   |
 |--------+-----------+--------+------+-----------+--------------+------------|
-| Mbuf   |         0 |      0 |    0 |         0 |   2017-03-20 | ---------- |
+| Mbuf   |       0.5 |      0 |    0 |       0.5 |   2017-03-21 | ---------- |
 | Mpduty |      24.0 |   6.25 |  4.0 |      20.0 |   2017-04-03 | ##-------- |
 #+END:
 ** BURNDOWN CHART
@@ -88,7 +89,7 @@
 | ** KERNEL                                                            |                    |        | B        |             |      12.5 |   6.25 |
 | *** Try shakthimaan Linux device driver code examples, Part II [7/7] | KERNEL.1489241583  | mpduty | B        | DONE        |       4.0 |   6.25 |
 | *** Test suite for shakthimaan Linux device driver code examples     | KERNEL.1489241685  | mpduty | B        | IN_PROGRESS |       8.0 |        |
-| *** [PR-1] Review and merge for Linux device driver code examples    | KERNEL.1489242032  | mbuf   | B        |             |       0.5 |        |
+| *** [PR-1] Review and merge for Linux device driver code examples    | KERNEL.1489242032  | mbuf   | B        | IN_PROGRESS |       0.5 |        |
 #+END:
 * TASKS
   :PROPERTIES:
@@ -182,12 +183,15 @@
     :LOGBOOK:
     CLOCK: [2017-03-13 Mon 10:15]--[2017-03-13 Mon 12:45] =>  2:30
     :END:
-*** [PR-1] Review and merge for Linux device driver code examples
+*** IN_PROGRESS [PR-1] Review and merge for Linux device driver code examples
     :PROPERTIES:
     :ESTIMATED: 0.5
     :ACTUAL:
     :OWNER: mbuf
     :ID: KERNEL.1489242032
     :TASKID: KERNEL.1489242032
+    :END:
+    :LOGBOOK:
+    CLOCK: [2017-03-20 Mon 18:05]--[2017-03-20 Mon 18:35] =>  0:30
     :END:
     Source: https://github.com/shakthimaan/linux-device-driver-examples/pull/1
