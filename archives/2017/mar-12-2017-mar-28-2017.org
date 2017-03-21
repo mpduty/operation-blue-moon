@@ -109,14 +109,17 @@
     :TASKID: READING.1489241516
     :END:
     :LOGBOOK:
+    CLOCK: [2017-03-21 Tue 08:20]--[2017-03-21 Tue 10:10] =>  1:50
+    CLOCK: [2017-03-20 Mon 20:10]--[2017-03-20 Mon 23:35] =>  3:25
+    CLOCK: [2017-03-19 Sun 07:05]--[2017-03-19 Sun 08:15] =>  1:10
     CLOCK: [2017-03-18 Sat 20:45]--[2017-03-18 Sat 22:30] =>  1:45
     CLOCK: [2017-03-17 Fri 08:15]--[2017-03-17 Fri 10:35] =>  2:20
     CLOCK: [2017-03-15 Wed 20:55]--[2017-03-15 Wed 22:10] =>  1:15
     :END:
     - [X] Chapter 6: Advanced Char Driver Operations
     - [X] Chapter 7: Time, Delays, and Deferred Work
-    - [ ] Chapter 8: Allocating Memory 	
-    - [ ] Chapter 9: Communicating with Hardware 	
+    - [X] Chapter 8: Allocating Memory
+    - [X] Chapter 9: Communicating with Hardware
     - [ ] Chapter 10: Interrupt Handling 	
     - [ ] Chapter 11: Data Types in the Kernel 	
     - [ ] Chapter 12: PCI Drivers 	
@@ -183,7 +186,7 @@
     :LOGBOOK:
     CLOCK: [2017-03-13 Mon 10:15]--[2017-03-13 Mon 12:45] =>  2:30
     :END:
-*** IN_PROGRESS [PR-1] Review and merge for Linux device driver code examples
+*** WAITING [PR-1] Review and merge for Linux device driver code examples
     :PROPERTIES:
     :ESTIMATED: 0.5
     :ACTUAL:
