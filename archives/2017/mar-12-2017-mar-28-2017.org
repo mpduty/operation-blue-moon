@@ -6,46 +6,24 @@
 * REPORTS
 ** SCRUM BOARD
 #+BEGIN: block-update-board
-| TODO | NEXT | IN_PROGRESS                                        | WAITING | DONE                                                           | CANCELED |
-|------+------+----------------------------------------------------+---------+----------------------------------------------------------------+----------|
-|      |      | READING.1489241516. Linux Device Drivers, 3rd edit |         | KERNEL.1489241583. Try shakthimaan Linux device d (2017-03-13) |          |
-|      |      | KERNEL.1489241685. Test suite for shakthimaan Lin  |         |                                                                |          |
-|      |      | KERNEL.1489242032. [PR-1] Review and merge for Li  |         |                                                                |          |
+| TODO | NEXT | IN_PROGRESS                                        | WAITING                                           | DONE                                                           | CANCELED |
+|------+------+----------------------------------------------------+---------------------------------------------------+----------------------------------------------------------------+----------|
+|      |      | READING.1489241516. Linux Device Drivers, 3rd edit | KERNEL.1489242032. [PR-1] Review and merge for Li | KERNEL.1489241583. Try shakthimaan Linux device d (2017-03-13) |          |
+|      |      | HACKING.1486719087. [Blog] Basic Parabola GNU/Linu |                                                   |                                                                |          |
+|      |      | WRITING.1489394843. [Blog] PLUG Clipart Hackatho   |                                                   |                                                                |          |
+|      |      | HACKING.1485136980. Org-mode task DONE should auto |                                                   |                                                                |          |
+|      |      | KERNEL.1489241685. Test suite for shakthimaan Lin  |                                                   |                                                                |          |
 #+END:
 ** DEVELOPER SUMMARY
 #+BEGIN: block-update-summary
 | NAME   | ESTIMATED | ACTUAL | DONE | REMAINING | PENCILS DOWN | PROGRESS   |
 |--------+-----------+--------+------+-----------+--------------+------------|
-| Mbuf   |       0.5 |      0 |    0 |       0.5 |   2017-03-21 | ---------- |
-| Mpduty |      24.0 |   6.25 |  4.0 |      20.0 |   2017-04-03 | ##-------- |
+| Mbuf   |       7.5 |      0 |    0 |       7.5 |   2017-04-05 | ---------- |
+| Mpduty |      24.0 |   6.25 |  4.0 |      20.0 |   2017-04-07 | ##-------- |
 #+END:
 ** BURNDOWN CHART
 #+BEGIN: block-update-graph
-:                                                                               
-:                                    Burndown                                   
-:                                                                               
-:  35 ++------+-------+--------+-------+-------+-------+--------+-------+--++   
-:     |   ###                                                               |   
-:     |   ...#                                               ACTUAL ####### |   
-:  30 ++      ##############################                  IDEAL .......++
-:     |           ....                                                      |   
-:  25 ++              .....                                                ++   
-:     |                    ....                                             |   
-:     |                        ....                                         |   
-:  20 ++                           ....                                    ++   
-:     |                                ....                                 |   
-:  15 ++                                   ....                            ++   
-:     |                                        ....                         |   
-:     |                                            ....                     |   
-:  10 ++                                               .....               ++   
-:     |                                                     ....            |   
-:   5 ++                                                        ....       ++   
-:     |                                                             ....    |   
-:     |                                                                 ....|   
-:   0 ++------+-------+--------+-------+-------+-------+--------+-------+--+.   
-:     0       2       4        6       8       10      12       14      16      
-:                                                                               
-:
+
 #+END:
 ** BURNDOWN LIST
 #+PLOT: title:"Burndown" ind:1 deps:(3 4) set:"term dumb" set:"xtics scale 0.5" set:"ytics scale 0.5" file:"burndown.plt" set:"xrange [0:17]"
@@ -61,10 +39,10 @@
 |   7 | 2017-03-18 |   30.0 |    20 |                   |
 |   8 | 2017-03-19 |   30.0 |    18 |                   |
 |   9 | 2017-03-20 |   30.0 |    16 |                   |
-|  10 | 2017-03-21 |        |    14 |                   |
-|  11 | 2017-03-22 |        |    12 |                   |
-|  12 | 2017-03-23 |        |    10 |                   |
-|  13 | 2017-03-24 |        |     8 |                   |
+|  10 | 2017-03-21 |   30.0 |    14 |                   |
+|  11 | 2017-03-22 |   30.0 |    12 |                   |
+|  12 | 2017-03-23 |   30.0 |    10 |                   |
+|  13 | 2017-03-24 |   30.0 |     8 |                   |
 |  14 | 2017-03-25 |        |     6 |                   |
 |  15 | 2017-03-26 |        |     4 |                   |
 |  16 | 2017-03-27 |        |     2 |                   |
@@ -80,16 +58,16 @@
 | *** Linux Device Drivers, 3rd edition, Part II                       | READING.1489241516 | mpduty | B        | IN_PROGRESS |      12.0 |        |
 |----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
 | ** WRITING                                                           |                    |        | B        |             |       5.5 |        |
-| *** [Blog] Basic Parabola GNU/Linux-libre install steps              | HACKING.1486719087 | mbuf   | B        |             |       3.0 |        |
-| *** [Blog] PLUG Clipart Hackathon                                    | WRITING.1489394843 | shaks  | B        |             |       2.5 |        |
+| *** [Blog] Basic Parabola GNU/Linux-libre install steps              | HACKING.1486719087 | mbuf   | B        | IN_PROGRESS |       3.0 |        |
+| *** [Blog] PLUG Clipart Hackathon                                    | WRITING.1489394843 | shaks  | B        | IN_PROGRESS |       2.5 |        |
 |----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
 | ** HACKING                                                           |                    |        | B        |             |       4.0 |        |
-| *** Org-mode task DONE should automatically update PROPERTIES ACTUAL | HACKING.1485136980 | mbuf   | B        |             |       4.0 |        |
+| *** Org-mode task DONE should automatically update PROPERTIES ACTUAL | HACKING.1485136980 | mbuf   | B        | IN_PROGRESS |       4.0 |        |
 |----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
 | ** KERNEL                                                            |                    |        | B        |             |      12.5 |   6.25 |
 | *** Try shakthimaan Linux device driver code examples, Part II [7/7] | KERNEL.1489241583  | mpduty | B        | DONE        |       4.0 |   6.25 |
 | *** Test suite for shakthimaan Linux device driver code examples     | KERNEL.1489241685  | mpduty | B        | IN_PROGRESS |       8.0 |        |
-| *** [PR-1] Review and merge for Linux device driver code examples    | KERNEL.1489242032  | mbuf   | B        | IN_PROGRESS |       0.5 |        |
+| *** [PR-1] Review and merge for Linux device driver code examples    | KERNEL.1489242032  | mbuf   | B        | WAITING     |       0.5 |        |
 #+END:
 * TASKS
   :PROPERTIES:
@@ -109,6 +87,8 @@
     :TASKID: READING.1489241516
     :END:
     :LOGBOOK:
+    CLOCK: [2017-03-24 Fri 07:50]--[2017-03-24 Fri 10:00] =>  2:10
+    CLOCK: [2017-03-23 Thu 08:10]--[2017-03-23 Thu 10:25] =>  2:15
     CLOCK: [2017-03-21 Tue 08:20]--[2017-03-21 Tue 10:10] =>  1:50
     CLOCK: [2017-03-20 Mon 20:10]--[2017-03-20 Mon 23:35] =>  3:25
     CLOCK: [2017-03-19 Sun 07:05]--[2017-03-19 Sun 08:15] =>  1:10
