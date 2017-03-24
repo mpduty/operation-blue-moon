@@ -130,7 +130,7 @@
     - [ ] Chapter 17: Network Drivers 	
     - [ ] Chapter 18: TTY Drivers    
 ** WRITING
-*** [Blog] Basic Parabola GNU/Linux-libre install steps
+*** IN_PROGRESS [Blog] Basic Parabola GNU/Linux-libre install steps
     :PROPERTIES:
     :ESTIMATED: 3.0
     :ACTUAL:
@@ -138,7 +138,10 @@
     :ID: HACKING.1486719087
     :TASKID: HACKING.1486719087
     :END:
-*** [Blog] PLUG Clipart Hackathon
+    :LOGBOOK:
+    CLOCK: [2017-03-22 Wed 20:00]--[2017-03-22 Wed 23:00] =>  3:00
+    :END:
+*** IN_PROGRESS [Blog] PLUG Clipart Hackathon
     :PROPERTIES:
     :ESTIMATED: 2.5
     :ACTUAL:
@@ -146,8 +149,11 @@
     :ID: WRITING.1489394843
     :TASKID: WRITING.1489394843
     :END:
+    :LOGBOOK:
+    CLOCK: [2017-03-24 Fri 18:30]--[2017-03-24 Fri 19:15] =>  0:45
+    :END:
 ** HACKING
-*** Org-mode task DONE should automatically update PROPERTIES ACTUAL
+*** IN_PROGRESS Org-mode task DONE should automatically update PROPERTIES ACTUAL
     :PROPERTIES:
     :ESTIMATED: 4.0
     :ACTUAL:
@@ -155,6 +161,14 @@
     :ID: HACKING.1485136980
     :TASKID: HACKING.1485136980
     :END:
+    :LOGBOOK:
+    CLOCK: [2017-03-23 Thu 20:30]--[2017-03-23 Thu 23:30] =>  3:00
+    :END:
+    To insert a value for ACTUAL, you can use:
+
+    #+BEGIN_SRC elisp
+    (org-entry-put nil "ACTUAL" "3.0")
+    #+END_SRC
 ** KERNEL
 *** DONE Try shakthimaan Linux device driver code examples, Part II [7/7]
     CLOSED: [2017-03-13 Mon 22:54]

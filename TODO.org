@@ -1,5 +1,5 @@
-* Wishlist
-** HACKING
+* HACKING
+** Emacs
 *** Add standard deviation, variance in Org scrum mode report
     :PROPERTIES:
     :ESTIMATED: 4.0
@@ -8,3 +8,53 @@
     :ID: HACKING.1489253135
     :TASKID: HACKING.1489253135
     :END:
+*** Measure velocity in Emacs Scrum
+** Hardware
+*** Custom watch electronics
+    http://www.tokyoflash.com/en/watches/kisai-night-vision
+
+*** Analog wall-clock with NTP support (without battery)
+
+*** Remote control the clock
+** Web
+*** Puppy Love
+   - [ ] Build instructions
+   - [ ] Next feature
+
+*** Vastu auto-layout check software from blueprint
+    LibreCAD?
+*** World time and date API service
+*** Pagure time tracking feature
+** Software
+*** Python Ansible patch for lineinfile var substitution
+
+    Only one line substitution is changed. You need to have unique
+    'line' for it to work.
+
+    #+BEGIN_SRC
+    ---
+    - name: Update configuration
+      hosts: nodes
+      gather_facts: true
+      sudo: yes
+
+      vars:
+        ip_address: "{{ ansible_eth1['ipv4']['address'] }}"
+        line_address: "                address {{ ip_address }}"
+
+      tasks:
+        - name: Specify parameters
+          lineinfile:
+            dest: /etc/foo.conf
+            insertafter: "{{ item.insertafter }}"
+            line: "{{ item.line }}"
+            state: present
+          with_items:
+            - { insertafter: 'alpha 1000', line: "        node-id-interface eth1" }   # OK
+            - { insertafter: 'port 1234', line: "{{ line_address }}"  }               # OK
+            - { insertafter: 'logging', line: "{{ line_address }}"  }                 # No {{ line_address } substitution
+    #+END_SRC
+*** Possibility to use org-babel with tailf commands?
+*** RPM packaging steps time measurement and improvement
+* WRITING
+** Emacs a day keeps the vi-zing away Org reference card
