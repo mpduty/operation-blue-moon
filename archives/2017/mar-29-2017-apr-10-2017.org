@@ -18,36 +18,36 @@
 #+BEGIN: block-update-summary
 | NAME   | ESTIMATED | ACTUAL | DONE | REMAINING | PENCILS DOWN | PROGRESS   |
 |--------+-----------+--------+------+-----------+--------------+------------|
-| Mbuf   |       7.5 |      0 |    0 |       7.5 |   2017-04-11 | ---------- |
-| Mpduty |       8.0 |      0 |    0 |       8.0 |   2017-04-05 | ---------- |
-| Imack  |      23.0 |      0 |    0 |      23.0 |   2017-04-17 | ---------- |
+| Mbuf   |       7.5 |      0 |    0 |       7.5 |   2017-04-12 | ---------- |
+| Mpduty |       8.0 |      0 |    0 |       8.0 |   2017-04-06 | ---------- |
+| Imack  |      23.0 |      0 |    0 |      23.0 |   2017-04-18 | ---------- |
 #+END:
 ** BURNDOWN CHART
 #+BEGIN: block-update-graph
-:
-:                                    Burndown
-:
-:  60 ++---------+----------+---------+----------+----------+----------+---++
-:     |                                                                     |
-:     |    #######                                           ACTUAL ####### |
-:  50 ++   ......                                             IDEAL .......++
-:     |          ....                                                       |
-:     |              .                                                      |
-:  40 ++              ......                                               ++
-:     |                     .....                                           |
-:     |                          .....                                      |
-:  30 ++                              .....                                ++
-:     |                                    .                                |
-:     |                                     .....                           |
-:  20 ++                                         .....                     ++
-:     |                                               ......                |
-:     |                                                     ....            |
-:  10 ++                                                        .          ++
-:     |                                                          ......     |
-:     |                                                                .....|
-:   0 ++---------+----------+---------+----------+----------+----------+---+.
-:     0          2          4         6          8          10         12
-:
+:                                                                               
+:                                    Burndown                                   
+:                                                                               
+:  60 ++---------+----------+---------+----------+----------+----------+---++   
+:     |                                                                     |   
+:     |    ##################                                ACTUAL ####### |   
+:  50 ++   ......                                             IDEAL .......++   
+:     |          ....                                                       |   
+:     |              .                                                      |   
+:  40 ++              ......                                               ++   
+:     |                     .....                                           |   
+:     |                          .....                                      |   
+:  30 ++                              .....                                ++   
+:     |                                    .                                |   
+:     |                                     .....                           |   
+:  20 ++                                         .....                     ++   
+:     |                                               ......                |   
+:     |                                                     ....            |   
+:  10 ++                                                        .          ++   
+:     |                                                          ......     |   
+:     |                                                                .....|   
+:   0 ++---------+----------+---------+----------+----------+----------+---+.   
+:     0          2          4         6          8          10         12       
+:                                                                               
 :
 #+END:
 ** BURNDOWN LIST
@@ -57,8 +57,8 @@
 |-----+------------+--------+-------+-----------------|
 |   1 | 2017-03-29 |   53.0 |    49 |                 |
 |   2 | 2017-03-30 |   53.0 |    45 |                 |
-|   3 | 2017-03-31 |        |    41 |                 |
-|   4 | 2017-04-01 |        |    37 |                 |
+|   3 | 2017-03-31 |   53.0 |    41 |                 |
+|   4 | 2017-04-01 |   53.0 |    37 |                 |
 |   5 | 2017-04-02 |        |    33 |                 |
 |   6 | 2017-04-03 |        |    29 |                 |
 |   7 | 2017-04-04 |        |    24 |                 |
@@ -79,16 +79,11 @@
 | *** Org-mode task DONE should automatically update PROPERTIES ACTUAL | HACKING.1485136980 | mbuf   | B        | IN_PROGRESS |       4.0 |        |
 |----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
 | ** KERNEL                                                            |                    |        | B        |             |      20.5 |        |
-| *** Linux Device Drivers, 3rd edition, Part III                      | KERNEL.1490768194  | shaks  | B        | IN_PROGRESS |      12.0 |        |
+| *** Linux Device Drivers, 3rd edition, Part III [1/8]                | KERNEL.1490768194  | shaks  | B        | IN_PROGRESS |      12.0 |        |
 | *** Test suite for shakthimaan Linux device driver code examples     | KERNEL.1489241685  | mpduty | B        | IN_PROGRESS |       8.0 |        |
 | *** [PR-1] Review and merge for Linux device driver code examples    | KERNEL.1489242032  | mbuf   | B        | WAITING     |       0.5 |        |
-|----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
-| ** WEB                                                               |                    |        | B        |             |      23.0 |        |
 | *** Reselling ticket Django application module [/]                   | WEB.1490857410     | imack  | B        | TODO        |      23.0 |        |
-|----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
-| ** WRITING                                                           |                    |        | B        |             |       5.5 |        |
 | *** [Blog] Basic Parabola GNU/Linux-libre install steps              | HACKING.1486719087 | mbuf   | B        | IN_PROGRESS |       3.0 |        |
-| *** [Blog] PLUG Clipart Hackathon                                    | WRITING.1489394843 | shaks  | B        | IN_PROGRESS |       2.5 |        |
 #+END:
 * TASKS
   :PROPERTIES:
@@ -118,7 +113,7 @@
     #+END_SRC
 
 ** KERNEL
-*** IN_PROGRESS Linux Device Drivers, 3rd edition, Part III
+*** IN_PROGRESS Linux Device Drivers, 3rd edition, Part III [1/8]
     :PROPERTIES:
     :ESTIMATED: 12.0
     :ACTUAL:
@@ -126,7 +121,11 @@
     :ID: KERNEL.1490768194
     :TASKID: KERNEL.1490768194
     :END:
-    - [ ] Chapter 11: Data Types in the Kernel 	
+    :LOGBOOK:
+    CLOCK: [2017-03-30 Thu 21:00]--[2017-03-30 Thu 23:20] =>  2:20
+    CLOCK: [2017-03-29 Wed 09:15]--[2017-03-29 Wed 10:40] =>  1:25
+    :END:
+    - [X] Chapter 11: Data Types in the Kernel 	
     - [ ] Chapter 12: PCI Drivers 	
     - [ ] Chapter 13: USB Drivers 	
     - [ ] Chapter 14: The Linux Device Model 	
@@ -151,7 +150,7 @@
     :TASKID: KERNEL.1489242032
     :END:
     Source: https://github.com/shakthimaan/linux-device-driver-examples/pull/1
-** WEB
+** WEB 
 *** TODO Reselling ticket Django application module [/]
     :PROPERTIES:
     :ESTIMATED: 23.0
