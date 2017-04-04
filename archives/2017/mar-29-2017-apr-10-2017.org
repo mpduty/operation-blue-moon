@@ -155,7 +155,7 @@
     :END:
     Source: https://github.com/shakthimaan/linux-device-driver-examples/pull/1
 ** WEB 
-*** TODO Reselling ticket Django application module [/]
+*** IN_PROGRESS Reselling ticket Django application module [5/12]
     :PROPERTIES:
     :ESTIMATED: 23.0
     :ACTUAL:
@@ -163,11 +163,18 @@
     :ID: WEB.1490857410
     :TASKID: WEB.1490857410
     :END:
-    - [ ] 30-03-17: Planning the architecture of the app [2 hours]
-    - [ ] 31-03-17: Creating the models part 1 [2 hours]
-    - [ ] 01-04-17: Creating models part 2. [2 hours]
-    - [ ] 02-04-17: Creating views part 1 [2 hours]
-    - [ ] 03-04-17: Creating views part 2 [2 hours]
+    :LOGBOOK:
+    CLOCK: [2017-04-03 Mon 22:15]--[2017-04-03 Mon 23:15] =>  1:00
+    CLOCK: [2017-04-02 Sun 22:00]--[2017-04-02 Sun 23:30] =>  1:30
+    CLOCK: [2017-04-01 Sat 23:00]--[2017-04-02 Sun 00:00] =>  1:00
+    CLOCK: [2017-03-31 Fri 23:00]--[2017-04-01 Sat 01:00] =>  2:00
+    CLOCK: [2017-03-30 Thu 21:00]--[2017-03-30 Thu 22:00] =>  1:00
+    :END:
+    - [X] 30-03-17: Planning the architecture of the app [2 hours]
+    - [X] 31-03-17: Creating the models part 1 [2 hours]
+    - [X] 01-04-17: Creating models part 2. [2 hours]
+    - [X] 02-04-17: Creating views part 1 [2 hours]
+    - [X] 03-04-17: Creating views part 2 [2 hours]
     - [ ] 04-04-17: Searching and planning for the html layout of the app. [2 hours]
     - [ ] 05-04-17: Building templates part 1. [2 hours]
     - [ ] 06-04-17: Building templates part 2. [2 hours]
