@@ -118,7 +118,7 @@
     #+END_SRC
 
 ** KERNEL
-*** IN_PROGRESS Linux Device Drivers, 3rd edition, Part III [1/8]
+*** IN_PROGRESS Linux Device Drivers, 3rd edition, Part III [2/8]
     :PROPERTIES:
     :ESTIMATED: 12.0
     :ACTUAL:
@@ -127,11 +127,14 @@
     :TASKID: KERNEL.1490768194
     :END:
     :LOGBOOK:
+    CLOCK: [2017-04-09 Sun 05:10]--[2017-04-09 Sun 09:30] =>  4:20
+    CLOCK: [2017-04-08 Sat 08:00]--[2017-04-08 Sat 10:45] =>  2:45
+    CLOCK: [2017-04-05 Wed 10:15]--[2017-04-05 Wed 12:10] =>  1:55
     CLOCK: [2017-03-30 Thu 21:00]--[2017-03-30 Thu 23:20] =>  2:20
     CLOCK: [2017-03-29 Wed 09:15]--[2017-03-29 Wed 10:40] =>  1:25
     :END:
-    - [X] Chapter 11: Data Types in the Kernel 	
-    - [ ] Chapter 12: PCI Drivers 	
+    - [X] Chapter 11: Data Types in the Kernel
+    - [X] Chapter 12: PCI Drivers
     - [ ] Chapter 13: USB Drivers 	
     - [ ] Chapter 14: The Linux Device Model 	
     - [ ] Chapter 15: Memory Mapping and DMA 	
