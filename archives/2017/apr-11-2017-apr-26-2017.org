@@ -125,7 +125,7 @@
     - [ ] Chapter 16: Block Drivers 	
     - [ ] Chapter 17: Network Drivers 	
     - [ ] Chapter 18: TTY Drivers    
-*** IN_PROGRESS Test suite for shakthimaan Linux device driver code examples III
+*** WAITING Test suite for shakthimaan Linux device driver code examples III
     :PROPERTIES:
     :ESTIMATED: 12.0
     :ACTUAL:
@@ -140,6 +140,9 @@
     :OWNER: mbuf
     :ID: KERNEL.1489242032
     :TASKID: KERNEL.1489242032
+    :END:
+    :LOGBOOK:
+    CLOCK: [2017-04-13 Thu 17:00]--[2017-04-13 Thu 17:30] =>  0:30
     :END:
     Source: https://github.com/shakthimaan/linux-device-driver-examples/pull/1
 ** WEB 
