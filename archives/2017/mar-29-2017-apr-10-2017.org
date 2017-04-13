@@ -6,89 +6,59 @@
 * REPORTS
 ** SCRUM BOARD
 #+BEGIN: block-update-board
-| TODO | NEXT | IN_PROGRESS                                        | WAITING                                           | DONE                                                          | CANCELED |
-|------+------+----------------------------------------------------+---------------------------------------------------+---------------------------------------------------------------+----------|
-|      |      | HACKING.1485136980. Org-mode task DONE should auto | KERNEL.1489242032. [PR-1] Review and merge for Li | WRITING.1489394843. [Blog] PLUG Clipart Hackatho (2017-04-01) |          |
-|      |      | KERNEL.1490768194. Linux Device Drivers, 3rd edit  |                                                   |                                                               |          |
-|      |      | KERNEL.1489241685. Test suite for shakthimaan Lin  |                                                   |                                                               |          |
-|      |      | WEB.1490857410. Reselling ticket Django applic     |                                                   |                                                               |          |
-|      |      | HACKING.1486719087. [Blog] Basic Parabola GNU/Linu |                                                   |                                                               |          |
+| TODO | NEXT | IN_PROGRESS | WAITING | DONE                                                           | CANCELED |
+|------+------+-------------+---------+----------------------------------------------------------------+----------|
+|      |      |             |         | KERNEL.1490768194. Linux Device Drivers, 3rd edit (2017-04-13) |          |
+|      |      |             |         | KERNEL.1489241685. Test suite for shakthimaan Lin (2017-04-13) |          |
+|      |      |             |         | WEB.1490857410. Reselling ticket Django applic (2017-04-13)    |          |
+|      |      |             |         | WRITING.1489394843. [Blog] PLUG Clipart Hackatho (2017-04-01)  |          |
 #+END:
 ** DEVELOPER SUMMARY
 #+BEGIN: block-update-summary
 | NAME   | ESTIMATED | ACTUAL | DONE | REMAINING | PENCILS DOWN | PROGRESS   |
 |--------+-----------+--------+------+-----------+--------------+------------|
-| Mbuf   |       7.5 |      0 |    0 |       7.5 |   2017-04-17 | ---------- |
-| Mpduty |       8.0 |      0 |    0 |       8.0 |   2017-04-11 | ---------- |
-| Imack  |      23.0 |      0 |    0 |      23.0 |   2017-04-21 | ---------- |
+| Mbuf   |         0 |      0 |    0 |         0 |   2017-04-13 | ---------- |
+| Mpduty |      20.0 |   15.0 | 20.0 |         0 |   2017-04-13 | ########## |
+| Imack  |      23.0 |    7.5 | 23.0 |         0 |   2017-04-13 | ########## |
 #+END:
 ** BURNDOWN CHART
 #+BEGIN: block-update-graph
-:                                                                               
-:                                    Burndown                                   
-:                                                                               
-:  60 ++---------+----------+---------+----------+----------+----------+---++   
-:     |                                                                     |   
-:     |    #################                                 ACTUAL ####### |   
-:  50 ++   ......           ######################            IDEAL .......++   
-:     |          ....                                                       |   
-:     |              .                                                      |   
-:  40 ++              ......                                               ++   
-:     |                     .....                                           |   
-:     |                          .....                                      |   
-:  30 ++                              .....                                ++   
-:     |                                    .                                |   
-:     |                                     .....                           |   
-:  20 ++                                         .....                     ++   
-:     |                                               ......                |   
-:     |                                                     ....            |   
-:  10 ++                                                        .          ++   
-:     |                                                          ......     |   
-:     |                                                                .....|   
-:   0 ++---------+----------+---------+----------+----------+----------+---+.   
-:     0          2          4         6          8          10         12       
-:                                                                               
-:
+
 #+END:
 ** BURNDOWN LIST
 #+PLOT: title:"Burndown" ind:1 deps:(3 4) set:"term dumb" set:"xtics scale 0.5" set:"ytics scale 0.5" file:"burndown.plt" set:"xrange [0:13]"
 #+BEGIN: block-update-burndown
 | DAY |       DATE | ACTUAL | IDEAL | TASKS COMPLETED    |
 |-----+------------+--------+-------+--------------------|
-|   1 | 2017-03-29 |   53.0 |    49 |                    |
-|   2 | 2017-03-30 |   53.0 |    45 |                    |
-|   3 | 2017-03-31 |   53.0 |    41 |                    |
-|   4 | 2017-04-01 |   50.5 |    37 | WRITING.1489394843 |
-|   5 | 2017-04-02 |   50.5 |    33 |                    |
-|   6 | 2017-04-03 |   50.5 |    29 |                    |
-|   7 | 2017-04-04 |   50.5 |    24 |                    |
-|   8 | 2017-04-05 |   50.5 |    20 |                    |
-|   9 | 2017-04-06 |        |    16 |                    |
-|  10 | 2017-04-07 |        |    12 |                    |
-|  11 | 2017-04-08 |        |     8 |                    |
-|  12 | 2017-04-09 |        |     4 |                    |
-|  13 | 2017-04-10 |        |     0 |                    |
+|   1 | 2017-03-29 |   45.5 |    42 |                    |
+|   2 | 2017-03-30 |   45.5 |    38 |                    |
+|   3 | 2017-03-31 |   45.5 |    35 |                    |
+|   4 | 2017-04-01 |   43.0 |    32 | WRITING.1489394843 |
+|   5 | 2017-04-02 |   43.0 |    28 |                    |
+|   6 | 2017-04-03 |   43.0 |    24 |                    |
+|   7 | 2017-04-04 |   43.0 |    21 |                    |
+|   8 | 2017-04-05 |   43.0 |    18 |                    |
+|   9 | 2017-04-06 |   43.0 |    14 |                    |
+|  10 | 2017-04-07 |   43.0 |    10 |                    |
+|  11 | 2017-04-08 |   43.0 |     7 |                    |
+|  12 | 2017-04-09 |   43.0 |     4 |                    |
+|  13 | 2017-04-10 |   43.0 |     0 |                    |
 #+END:
 ** TASK LIST
 #+BEGIN: columnview :hlines 2 :maxlevel 5 :id "TASKS"
-| ITEM                                                                 | TASKID             | OWNER  | PRIORITY | TODO        | ESTIMATED | ACTUAL |
-|----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
-| * TASKS                                                              |                    |        | B        |             |      53.0 |    2.0 |
-|----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
-| ** APPLICATIONS                                                      |                    |        | B        |             |       4.0 |        |
-| *** Org-mode task DONE should automatically update PROPERTIES ACTUAL | HACKING.1485136980 | mbuf   | B        | IN_PROGRESS |       4.0 |        |
-|----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
-| ** KERNEL                                                            |                    |        | B        |             |      20.5 |        |
-| *** Linux Device Drivers, 3rd edition, Part III [1/8]                | KERNEL.1490768194  | shaks  | B        | IN_PROGRESS |      12.0 |        |
-| *** Test suite for shakthimaan Linux device driver code examples     | KERNEL.1489241685  | mpduty | B        | IN_PROGRESS |       8.0 |        |
-| *** [PR-1] Review and merge for Linux device driver code examples    | KERNEL.1489242032  | mbuf   | B        | WAITING     |       0.5 |        |
-|----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
-| ** WEB                                                               |                    |        | B        |             |      23.0 |        |
-| *** Reselling ticket Django application module [6/12]                | WEB.1490857410     | imack  | B        | IN_PROGRESS |      23.0 |        |
-|----------------------------------------------------------------------+--------------------+--------+----------+-------------+-----------+--------|
-| ** WRITING                                                           |                    |        | B        |             |       5.5 |    2.0 |
-| *** [Blog] Basic Parabola GNU/Linux-libre install steps              | HACKING.1486719087 | mbuf   | B        | IN_PROGRESS |       3.0 |        |
-| *** [Blog] PLUG Clipart Hackathon                                    | WRITING.1489394843 | shaks  | B        | DONE        |       2.5 |    2.0 |
+| ITEM                                                                | TASKID             | OWNER  | PRIORITY | TODO | ESTIMATED | ACTUAL |
+|---------------------------------------------------------------------+--------------------+--------+----------+------+-----------+--------|
+| * TASKS                                                             |                    |        | B        |      |      45.5 |   24.5 |
+|---------------------------------------------------------------------+--------------------+--------+----------+------+-----------+--------|
+| ** KERNEL                                                           |                    |        | B        |      |      20.0 |   15.0 |
+| *** Linux Device Drivers, 3rd edition, Part III [2/8]               | KERNEL.1490768194  | mpduty | B        | DONE |      12.0 |  12.75 |
+| *** Test suite for shakthimaan Linux device driver code examples II | KERNEL.1489241685  | mpduty | B        | DONE |       8.0 |   2.25 |
+|---------------------------------------------------------------------+--------------------+--------+----------+------+-----------+--------|
+| ** WEB                                                              |                    |        | B        |      |      23.0 |    7.5 |
+| *** Reselling ticket Django application module I [6/12]             | WEB.1490857410     | imack  | B        | DONE |      23.0 |    7.5 |
+|---------------------------------------------------------------------+--------------------+--------+----------+------+-----------+--------|
+| ** WRITING                                                          |                    |        | B        |      |       2.5 |    2.0 |
+| *** [Blog] PLUG Clipart Hackathon                                   | WRITING.1489394843 | shaks  | B        | DONE |       2.5 |    2.0 |
 #+END:
 * TASKS
   :PROPERTIES:
@@ -99,29 +69,12 @@
   :wpd-mpduty:      2
   :wpd-mbuf:        1
   :END:
-** APPLICATIONS
-*** IN_PROGRESS Org-mode task DONE should automatically update PROPERTIES ACTUAL
-    :PROPERTIES:
-    :ESTIMATED: 4.0
-    :ACTUAL:
-    :OWNER: mbuf
-    :ID: HACKING.1485136980
-    :TASKID: HACKING.1485136980
-    :END:
-    :LOGBOOK:
-    CLOCK: [2017-03-23 Thu 20:30]--[2017-03-23 Thu 23:30] =>  3:00
-    :END:
-    To insert a value for ACTUAL, you can use:
-
-    #+BEGIN_SRC elisp
-    (org-entry-put nil "ACTUAL" "3.0")
-    #+END_SRC
-
 ** KERNEL
-*** IN_PROGRESS Linux Device Drivers, 3rd edition, Part III [2/8]
+*** DONE Linux Device Drivers, 3rd edition, Part III [2/8]
+    CLOSED: [2017-04-13 Thu 15:19]
     :PROPERTIES:
     :ESTIMATED: 12.0
-    :ACTUAL:
+    :ACTUAL: 12.75
     :OWNER: mpduty
     :ID: KERNEL.1490768194
     :TASKID: KERNEL.1490768194
@@ -135,34 +88,24 @@
     :END:
     - [X] Chapter 11: Data Types in the Kernel
     - [X] Chapter 12: PCI Drivers
-    - [ ] Chapter 13: USB Drivers 	
-    - [ ] Chapter 14: The Linux Device Model 	
-    - [ ] Chapter 15: Memory Mapping and DMA 	
-    - [ ] Chapter 16: Block Drivers 	
-    - [ ] Chapter 17: Network Drivers 	
-    - [ ] Chapter 18: TTY Drivers    
-*** IN_PROGRESS Test suite for shakthimaan Linux device driver code examples
+*** DONE Test suite for shakthimaan Linux device driver code examples II
+    CLOSED: [2017-04-13 Thu 15:17]
     :PROPERTIES:
     :ESTIMATED: 8.0
-    :ACTUAL:
+    :ACTUAL: 2.25
     :OWNER: mpduty
     :ID: KERNEL.1489241685
     :TASKID: KERNEL.1489241685
     :END:
-*** WAITING [PR-1] Review and merge for Linux device driver code examples
-    :PROPERTIES:
-    :ESTIMATED: 0.5
-    :ACTUAL:
-    :OWNER: mbuf
-    :ID: KERNEL.1489242032
-    :TASKID: KERNEL.1489242032
+    :LOGBOOK:
+    CLOCK: [2017-04-09 Sun 11:40]--[2017-04-09 Sun 14:05] =>  2:25
     :END:
-    Source: https://github.com/shakthimaan/linux-device-driver-examples/pull/1
 ** WEB 
-*** IN_PROGRESS Reselling ticket Django application module [6/12]
+*** DONE Reselling ticket Django application module I [6/12]
+    CLOSED: [2017-04-13 Thu 15:22]
     :PROPERTIES:
     :ESTIMATED: 23.0
-    :ACTUAL:
+    :ACTUAL: 7.5
     :OWNER: imack
     :ID: WEB.1490857410
     :TASKID: WEB.1490857410
@@ -181,21 +124,7 @@
     - [X] 02-04-17: Creating views part 1 [2 hours]
     - [X] 03-04-17: Creating views part 2 [2 hours]
     - [X] 04-04-17: Searching and planning for the html layout of the app. [2 hours]
-    - [ ] 05-04-17: Building templates part 1. [2 hours]
-    - [ ] 06-04-17: Building templates part 2. [2 hours]
-    - [ ] 07-04-17: Testing the app. [2 hours]
-    - [ ] 08-04-17: Bug fixing. [2 hours]
-    - [ ] 09-04-17: Analysis over deployment. [2 hours]
-    - [ ] 10-04-17: Deployment. [1 hours]
 ** WRITING
-*** IN_PROGRESS [Blog] Basic Parabola GNU/Linux-libre install steps
-    :PROPERTIES:
-    :ESTIMATED: 3.0
-    :ACTUAL:
-    :OWNER: mbuf
-    :ID: HACKING.1486719087
-    :TASKID: HACKING.1486719087
-    :END:
 *** DONE [Blog] PLUG Clipart Hackathon
     CLOSED: [2017-04-01 Sat 18:41]
     :PROPERTIES:
