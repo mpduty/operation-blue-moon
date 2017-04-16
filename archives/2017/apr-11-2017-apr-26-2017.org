@@ -119,10 +119,10 @@
     :ID: KERNEL.1492076921
     :TASKID: KERNEL.1492076921
     :END:
-    - [ ] Chapter 13: USB Drivers 	
-    - [ ] Chapter 14: The Linux Device Model 	
-    - [ ] Chapter 15: Memory Mapping and DMA 	
-    - [ ] Chapter 16: Block Drivers 	
+    - [x] Chapter 13: USB Drivers 	
+    - [x] Chapter 14: The Linux Device Model 	
+    - [x] Chapter 15: Memory Mapping and DMA 	
+    - [x] Chapter 16: Block Drivers 	
     - [ ] Chapter 17: Network Drivers 	
     - [ ] Chapter 18: TTY Drivers    
 *** WAITING Test suite for shakthimaan Linux device driver code examples III
